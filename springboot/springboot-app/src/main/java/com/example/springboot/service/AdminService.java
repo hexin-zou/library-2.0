@@ -32,7 +32,7 @@ public class AdminService implements IAdminService {
     AdminMapper adminMapper;
 
     private static final String DEFAULT_PASS = "123";
-    private static final String PASS_SALT = "qingge";
+    private static final String PASS_SALT = "zap";
 
     @Override
     public List<Admin> list() {
